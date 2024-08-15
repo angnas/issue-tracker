@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Button, TextField } from "@radix-ui/themes";
+import { Button, TextField, TextArea } from "@radix-ui/themes";
 
 const NewIssuePage = () => {
   return (
