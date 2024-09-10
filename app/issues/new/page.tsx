@@ -68,7 +68,7 @@ const NewIssuePage = () => {
           name="Description"
           control={control}
           render={({ field }) => (
-            <SimpleMdeReact placeholder="Description" {...field} />
+            <SimpleMDE placeholder="Description" {...field} />
           )}
         />
         <ErrorMessage>{errors.description?.message}</ErrorMessage>
